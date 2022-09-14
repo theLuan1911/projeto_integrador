@@ -1,0 +1,22 @@
+{
+    "name": "distribuidora/projeto_integrador",
+    "description": "Loja Online em PHP",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "core\\": "core/"
+        },
+        "files":[
+            "config.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "theLuan1911",
+            "email": "luan.bsilva098@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.6"
+    }
+}
